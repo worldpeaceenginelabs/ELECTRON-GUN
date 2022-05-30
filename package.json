@@ -1,0 +1,25 @@
+{
+  "name": "gun-relay-desktop-win",
+  "version": "1.0.0",
+  "description": "A Gun Relay Server for Windows Desktop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/worldpeaceenginelabs/gun-relay-desktop-win",
+  "keywords": [
+    "gun",
+    "p2p",
+    "relay",
+    "support",
+    "decentralize"
+  ],
+  "author": "Bo",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^19.0.1",
+    "electron-packager": "^15.5.1",
+    "gun": "^0.2020.1237",
+    "http": "^0.0.1-security"
+  }
+}
