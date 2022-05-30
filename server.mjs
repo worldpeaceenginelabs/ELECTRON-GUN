@@ -8,7 +8,7 @@ const port = 8080
 
 var gun = Gun({
   web: server,
-  peers: ['https://relay.peer.ooo/gun']
+  peers: ['https://gunrelayeurope.herokuapp.com/gun']
 })
 
 server.listen(8080, () => {
