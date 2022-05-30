@@ -3,5 +3,5 @@
 ## USE
 
 - npm install
-- add your peers
+- add your peers in server.js
 - npm exec electron-packager . (the dot says in the actual folder, without argument it compiles for the actual OS you are using)
