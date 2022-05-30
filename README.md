@@ -4,4 +4,4 @@
 
 - npm install
 - add your peers in server.js
-- npm exec electron-packager . (the dot says in the actual folder, without argument it compiles for the actual OS you are using)
+- npm exec electron-packager . (the dot means "in the actual folder", without further arguments electron-packager compiles for the actual OS you are using to compile)
