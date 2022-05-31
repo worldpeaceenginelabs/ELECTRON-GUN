@@ -13,4 +13,7 @@
           route[file.split('.')[0]] = require('./route/'+file);
       });
   });
+
+  gun.get('test').on(data => console.log(data))
+
 }());
