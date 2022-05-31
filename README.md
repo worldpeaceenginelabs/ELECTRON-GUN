@@ -1,4 +1,4 @@
-# A Gun Relay Server for Windows Desktop
+# A Gun Relay Server executable for Desktop
 
 ## USE
 
