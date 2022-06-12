@@ -1,5 +1,7 @@
 # A Gun Relay Server executable for Desktop
 
+### More on https://github.com/amark/gun/wiki/Local-Desktop-Gun-Relay-(Windows,-Linux,-MAC)
+
 ## USE
 
 - npm install
