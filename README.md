@@ -1,3 +1,5 @@
+#### !!!this is not the relay needed for METAVERSE-GUN by default; look for https://github.com/worldpeaceenginelabs/METAVERSE-GUN-RELAY instead!!!
+
 # A Gun Relay Server executable for Desktop
 
 ![image](https://user-images.githubusercontent.com/67427045/173240428-1f85a4f5-38dd-494e-b337-ca5a73ce4044.png)
