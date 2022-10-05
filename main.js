@@ -3,7 +3,7 @@ const {app, BrowserWindow} = require('electron')
 const path = require('path')
 
 const { fork } = require('child_process')
-const ps = fork(`${__dirname}/server.js`)
+const ps = fork(`${__dirname}/server.mjs`)
 
 function createWindow () {
   // Create the browser window.
