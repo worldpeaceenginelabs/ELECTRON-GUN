@@ -4,7 +4,7 @@ import Gun from 'gun'
 const server = http.createServer()
 
 const host = 'localhost'
-const port = 8080
+const port = 8765
 
 var gun = Gun({
   web: server,
