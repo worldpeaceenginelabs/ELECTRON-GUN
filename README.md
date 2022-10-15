@@ -17,6 +17,14 @@
 ![image](https://user-images.githubusercontent.com/67427045/171200838-3839b2d7-1100-4aa5-bec4-6472afed0351.png)
 ![image](https://user-images.githubusercontent.com/67427045/171201213-78c2768b-d3b4-44a9-932d-ad36273b938e.png)
 
+## Make your desktop gun server available from the outside (centralized way, for development, fallback or scaling eventually)
+
+https://www.noip.com/integrate/request (free user account neccessary)
+
+To make your relay available on the internet, register for a free account on noip.com, download the client(all os available), then just start the electron gun in a console or run the compiled electron exe file. my clients have an entry peers: https://...relay.ddns.net which connects to my electron gun on my notebook. (works great for testing everything out online)
+
+cool thing: not much to change on your code for production. you just add more desktop or hosted relays and add them with commas to peers like ```peers: address.com, address2.com```
+
 # Use cases
 
 ## Decentralized Subscription Service (decentralized database/storage server)
@@ -51,10 +59,6 @@ The source-code of your website/app in this example comes from the desktop relay
 ## Gun emailserver
 
 A Gun based email server on your desktop. by by classic email provider! (take a look on Cloudflare Email Routing https://developers.cloudflare.com/email-routing/ to improve further)
-
-## Make your desktop gun server available from the outside (centralized way, for fallback or scaling eventually)
-
-https://www.noip.com/integrate/request (free user account neccessary)
 
 ## Contribute
 
