@@ -21,7 +21,7 @@
 
 https://www.noip.com/integrate/request (free user account neccessary)
 
-To make your relay available on the internet, register for a free account on noip.com, download the client(all os available), then just start the electron gun in a console or run the compiled electron exe file. my clients have an entry ```peers: https://...relay.ddns.net``` which connects to my electron gun on my notebook. (works great for testing everything out online)
+To make your relay available on the internet, register for a free account on noip.com, download the client(all os available), then just start the electron gun in a console or run the compiled electron exe file. My clients have an entry ```peers: https://...relay.ddns.net``` which connects to my electron gun on my notebook. (works great for testing everything out online)
 
 cool thing: not much to change on your code for production. you just add more desktop or hosted relays and add them with commas to peers like ```peers: address.com, address2.com```
 
