@@ -19,7 +19,7 @@
   "dependencies": {
     "electron": "^19.0.1",
     "electron-packager": "^15.5.1",
-    "gun": "^0.2020.1237",
+    "gun": "^0.2020.1239",
     "http": "^0.0.1-security"
   }
 }
